@@ -117,6 +117,12 @@
     <Compile Include="WManteAreas.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="WManteCalin.Designer.vb">
+      <DependentUpon>WManteCalin.vb</DependentUpon>
+    </Compile>
+    <Compile Include="WManteCalin.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="WManteCintas.Designer.vb">
       <DependentUpon>WManteCintas.vb</DependentUpon>
     </Compile>

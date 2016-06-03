@@ -24,6 +24,8 @@ Partial Class WPrincipipal
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(WPrincipipal))
         Me.MenuStrip1 = New System.Windows.Forms.MenuStrip()
+        Me.ProduccionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.EntregaChipToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MantenimientoToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.AreaToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.CintasToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
@@ -33,8 +35,7 @@ Partial Class WPrincipipal
         Me.RolesToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.UsuariosToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.LectorRFIDToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.ProduccionToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
-        Me.EntregaChipToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
+        Me.CalinToolStripMenuItem = New System.Windows.Forms.ToolStripMenuItem()
         Me.MenuStrip1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -47,9 +48,22 @@ Partial Class WPrincipipal
         Me.MenuStrip1.TabIndex = 1
         Me.MenuStrip1.Text = "MenuStrip1"
         '
+        'ProduccionToolStripMenuItem
+        '
+        Me.ProduccionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EntregaChipToolStripMenuItem})
+        Me.ProduccionToolStripMenuItem.Name = "ProduccionToolStripMenuItem"
+        Me.ProduccionToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
+        Me.ProduccionToolStripMenuItem.Text = "&Produccion"
+        '
+        'EntregaChipToolStripMenuItem
+        '
+        Me.EntregaChipToolStripMenuItem.Name = "EntregaChipToolStripMenuItem"
+        Me.EntregaChipToolStripMenuItem.Size = New System.Drawing.Size(142, 22)
+        Me.EntregaChipToolStripMenuItem.Text = "Entrega Chip"
+        '
         'MantenimientoToolStripMenuItem
         '
-        Me.MantenimientoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AreaToolStripMenuItem, Me.CintasToolStripMenuItem, Me.EquiposToolStripMenuItem, Me.EstadosToolStripMenuItem, Me.PosicionesToolStripMenuItem, Me.RolesToolStripMenuItem, Me.UsuariosToolStripMenuItem, Me.LectorRFIDToolStripMenuItem})
+        Me.MantenimientoToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.AreaToolStripMenuItem, Me.CintasToolStripMenuItem, Me.EquiposToolStripMenuItem, Me.EstadosToolStripMenuItem, Me.PosicionesToolStripMenuItem, Me.RolesToolStripMenuItem, Me.UsuariosToolStripMenuItem, Me.LectorRFIDToolStripMenuItem, Me.CalinToolStripMenuItem})
         Me.MantenimientoToolStripMenuItem.Name = "MantenimientoToolStripMenuItem"
         Me.MantenimientoToolStripMenuItem.Size = New System.Drawing.Size(101, 20)
         Me.MantenimientoToolStripMenuItem.Text = "&Mantenimiento"
@@ -102,18 +116,11 @@ Partial Class WPrincipipal
         Me.LectorRFIDToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.LectorRFIDToolStripMenuItem.Text = "Lector RFID"
         '
-        'ProduccionToolStripMenuItem
+        'CalinToolStripMenuItem
         '
-        Me.ProduccionToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.EntregaChipToolStripMenuItem})
-        Me.ProduccionToolStripMenuItem.Name = "ProduccionToolStripMenuItem"
-        Me.ProduccionToolStripMenuItem.Size = New System.Drawing.Size(80, 20)
-        Me.ProduccionToolStripMenuItem.Text = "&Produccion"
-        '
-        'EntregaChipToolStripMenuItem
-        '
-        Me.EntregaChipToolStripMenuItem.Name = "EntregaChipToolStripMenuItem"
-        Me.EntregaChipToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
-        Me.EntregaChipToolStripMenuItem.Text = "Entrega Chip"
+        Me.CalinToolStripMenuItem.Name = "CalinToolStripMenuItem"
+        Me.CalinToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.CalinToolStripMenuItem.Text = "Calin"
         '
         'WPrincipipal
         '
@@ -151,4 +158,5 @@ Partial Class WPrincipipal
     Friend WithEvents ProduccionToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents LectorRFIDToolStripMenuItem As ToolStripMenuItem
     Friend WithEvents EntregaChipToolStripMenuItem As ToolStripMenuItem
+    Friend WithEvents CalinToolStripMenuItem As ToolStripMenuItem
 End Class

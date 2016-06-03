@@ -32,4 +32,9 @@
         WEntregaBodega.MdiParent = Me
         WEntregaBodega.Show()
     End Sub
+
+    Private Sub CalinToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles CalinToolStripMenuItem.Click
+        WManteCalin.MdiParent = Me
+        WManteCalin.Show()
+    End Sub
 End Class
