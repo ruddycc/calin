@@ -87,6 +87,12 @@
     <Compile Include="C_Conexion.vb" />
     <Compile Include="C_Funciones.vb" />
     <Compile Include="C_Query.vb" />
+    <Compile Include="Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="fruit_traceDataSet.Designer.vb">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
