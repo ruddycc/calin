@@ -172,6 +172,9 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WEntregaBodega.resx">
       <DependentUpon>WEntregaBodega.vb</DependentUpon>
     </EmbeddedResource>
