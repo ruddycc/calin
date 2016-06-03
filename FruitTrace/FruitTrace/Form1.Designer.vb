@@ -30,7 +30,7 @@ Partial Class Form1
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Name = "Form1"
-        Me.Text = "Ruddy"
+        Me.Text = "carepinga"
         Me.ResumeLayout(False)
 
     End Sub
