@@ -184,6 +184,9 @@
     <EmbeddedResource Include="WManteAreas.resx">
       <DependentUpon>WManteAreas.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="WManteCalin.resx">
+      <DependentUpon>WManteCalin.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="WManteCintas.resx">
       <DependentUpon>WManteCintas.vb</DependentUpon>
     </EmbeddedResource>
