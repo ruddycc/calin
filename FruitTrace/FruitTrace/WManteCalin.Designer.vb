@@ -30,7 +30,7 @@ Partial Class WManteCalin
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(284, 261)
         Me.Name = "WManteCalin"
-        Me.Text = "Calin"
+        Me.Text = "Ruddy"
         Me.ResumeLayout(False)
 
     End Sub
